@@ -3,13 +3,12 @@ import img1 from './assets/img1.jpg';
 import img2 from './assets/img2.jpg';
 import img3 from './assets/img3.jpg';
 import Hero from './components/Hero';
-import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 
 function App() {
   return (
     <div className='App'>
-      {/* <Navbar /> */}
+      {/* <Navbar /> INSIDE HERO!*/}
       <Hero imageSrc={img3} />
       <Slider
         imageSrc={img1}
